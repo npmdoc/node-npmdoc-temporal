@@ -1,0 +1,230 @@
+<svg height="3630" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="3630" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+<tspan x="10" y="42">&gt; npmdoc-temporal@0.0.1 test /home/travis/build/npmdoc/node-npmdoc-temporal</tspan>
+<tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
+<tspan x="10" y="74"></tspan>
+<tspan x="10" y="90"></tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-07T13:28:24Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="122">temporal</tspan>
+<tspan x="10" y="138"></tspan>
+<tspan x="10" y="154"></tspan>
+<tspan x="10" y="170">covering $ /home/travis/.nvm/versions/node/v6.10.2/bin/node /home/travis/build/npmdoc/node-npmdo\</tspan>
+<tspan x="10" y="186">c-temporal/test.js</tspan>
+<tspan x="10" y="202">merging file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="218">-report</tspan>
+<tspan x="10" y="234">&gt; server listening on http-port 51559</tspan>
+<tspan x="10" y="250">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="266"></tspan>
+<tspan x="10" y="282"></tspan>
+<tspan x="10" y="298">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-temporal/tmp/ele\</tspan>
+<tspan x="10" y="314">ctron.15b489a04d50.4bafb30dde8c4.html</tspan>
+<tspan x="10" y="330"></tspan>
+<tspan x="10" y="346">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="362">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="378">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="394"></tspan>
+<tspan x="10" y="410">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-temporal/tmp/ele\</tspan>
+<tspan x="10" y="426">ctron.15b489a05150.ecd5c48dc5a1d.html</tspan>
+<tspan x="10" y="442"></tspan>
+<tspan x="10" y="458">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="474">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="490">merging file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="506">-report</tspan>
+<tspan x="10" y="522">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="538">[4921:0407/132825:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="554">[4921:0407/132825:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="570">[4953:0407/132825:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="586">in process gpu-process. </tspan>
+<tspan x="10" y="602">[4921:0407/132826:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="618">&gt; server listening on http-port 64818</tspan>
+<tspan x="10" y="634">merging file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="650">-report</tspan>
+<tspan x="10" y="666">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="682"></tspan>
+<tspan x="10" y="698">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-temporal/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="714"></tspan>
+<tspan x="10" y="730">[4925:0407/132826:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="746">[4925:0407/132826:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="762">[4996:0407/132826:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="778">in process gpu-process. </tspan>
+<tspan x="10" y="794">[4925:0407/132826:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="810">[ 1491571705129,</tspan>
+<tspan x="10" y="826">  1491571705132,</tspan>
+<tspan x="10" y="842">  1491571705146,</tspan>
+<tspan x="10" y="858">  1491571705199,</tspan>
+<tspan x="10" y="874">  1491571705285,</tspan>
+<tspan x="10" y="890">  1491571705286,</tspan>
+<tspan x="10" y="906">  1491571705319,</tspan>
+<tspan x="10" y="922">  1491571705457,</tspan>
+<tspan x="10" y="938">  1491571705458,</tspan>
+<tspan x="10" y="954">  1491571705459,</tspan>
+<tspan x="10" y="970">  1491571705460,</tspan>
+<tspan x="10" y="986">  1491571705461,</tspan>
+<tspan x="10" y="1002">  1491571705462,</tspan>
+<tspan x="10" y="1018">  1491571705464,</tspan>
+<tspan x="10" y="1034">  1491571705465,</tspan>
+<tspan x="10" y="1050">  1491571705466,</tspan>
+<tspan x="10" y="1066">  1491571705467,</tspan>
+<tspan x="10" y="1082">  1491571705468,</tspan>
+<tspan x="10" y="1098">  1491571705469,</tspan>
+<tspan x="10" y="1114">  1491571705470,</tspan>
+<tspan x="10" y="1130">  1491571705471,</tspan>
+<tspan x="10" y="1146">  1491571705472,</tspan>
+<tspan x="10" y="1162">  1491571705473,</tspan>
+<tspan x="10" y="1178">  1491571705474,</tspan>
+<tspan x="10" y="1194">  1491571705476,</tspan>
+<tspan x="10" y="1210">  1491571705477,</tspan>
+<tspan x="10" y="1226">  1491571705478,</tspan>
+<tspan x="10" y="1242">  1491571705479,</tspan>
+<tspan x="10" y="1258">  1491571705480,</tspan>
+<tspan x="10" y="1274">  1491571705481,</tspan>
+<tspan x="10" y="1290">  1491571705482,</tspan>
+<tspan x="10" y="1306">  1491571705483,</tspan>
+<tspan x="10" y="1322">  1491571705484,</tspan>
+<tspan x="10" y="1338">  1491571705485,</tspan>
+<tspan x="10" y="1354">  1491571705487,</tspan>
+<tspan x="10" y="1370">  1491571705488,</tspan>
+<tspan x="10" y="1386">  1491571705489,</tspan>
+<tspan x="10" y="1402">  1491571705490,</tspan>
+<tspan x="10" y="1418">  1491571705491,</tspan>
+<tspan x="10" y="1434">  1491571705492,</tspan>
+<tspan x="10" y="1450">  1491571705493,</tspan>
+<tspan x="10" y="1466">  1491571705494,</tspan>
+<tspan x="10" y="1482">  1491571705495,</tspan>
+<tspan x="10" y="1498">  1491571705496,</tspan>
+<tspan x="10" y="1514">  1491571705498,</tspan>
+<tspan x="10" y="1530">  1491571705499,</tspan>
+<tspan x="10" y="1546">  1491571705500,</tspan>
+<tspan x="10" y="1562">  1491571705501,</tspan>
+<tspan x="10" y="1578">  1491571705502,</tspan>
+<tspan x="10" y="1594">  1491571705503,</tspan>
+<tspan x="10" y="1610">  1491571705504,</tspan>
+<tspan x="10" y="1626">  1491571705505,</tspan>
+<tspan x="10" y="1642">  1491571705506,</tspan>
+<tspan x="10" y="1658">  1491571705507,</tspan>
+<tspan x="10" y="1674">  1491571705508,</tspan>
+<tspan x="10" y="1690">  1491571705510,</tspan>
+<tspan x="10" y="1706">  1491571705511,</tspan>
+<tspan x="10" y="1722">  1491571705512,</tspan>
+<tspan x="10" y="1738">  1491571705513,</tspan>
+<tspan x="10" y="1754">  1491571705514,</tspan>
+<tspan x="10" y="1770">  1491571705515,</tspan>
+<tspan x="10" y="1786">  1491571705516,</tspan>
+<tspan x="10" y="1802">  1491571705517,</tspan>
+<tspan x="10" y="1818">  1491571705518,</tspan>
+<tspan x="10" y="1834">  1491571705519,</tspan>
+<tspan x="10" y="1850">  1491571705521,</tspan>
+<tspan x="10" y="1866">  1491571705522,</tspan>
+<tspan x="10" y="1882">  1491571705523,</tspan>
+<tspan x="10" y="1898">  1491571705524,</tspan>
+<tspan x="10" y="1914">  1491571705525,</tspan>
+<tspan x="10" y="1930">  1491571705526,</tspan>
+<tspan x="10" y="1946">  1491571705527,</tspan>
+<tspan x="10" y="1962">  1491571705528,</tspan>
+<tspan x="10" y="1978">  1491571705530,</tspan>
+<tspan x="10" y="1994">  1491571705531,</tspan>
+<tspan x="10" y="2010">  1491571705532,</tspan>
+<tspan x="10" y="2026">  1491571705533,</tspan>
+<tspan x="10" y="2042">  1491571705534,</tspan>
+<tspan x="10" y="2058">  1491571705535,</tspan>
+<tspan x="10" y="2074">  1491571705536,</tspan>
+<tspan x="10" y="2090">  1491571705537,</tspan>
+<tspan x="10" y="2106">  1491571705538,</tspan>
+<tspan x="10" y="2122">  1491571705539,</tspan>
+<tspan x="10" y="2138">  1491571705539,</tspan>
+<tspan x="10" y="2154">  1491571705543,</tspan>
+<tspan x="10" y="2170">  1491571705547,</tspan>
+<tspan x="10" y="2186">  1491571705548,</tspan>
+<tspan x="10" y="2202">  1491571705549,</tspan>
+<tspan x="10" y="2218">  1491571705550,</tspan>
+<tspan x="10" y="2234">  1491571705551,</tspan>
+<tspan x="10" y="2250">  1491571705552,</tspan>
+<tspan x="10" y="2266">  1491571705553,</tspan>
+<tspan x="10" y="2282">  1491571705554,</tspan>
+<tspan x="10" y="2298">  1491571705555,</tspan>
+<tspan x="10" y="2314">  1491571705557,</tspan>
+<tspan x="10" y="2330">  1491571705558,</tspan>
+<tspan x="10" y="2346">  1491571705559,</tspan>
+<tspan x="10" y="2362">  1491571705560,</tspan>
+<tspan x="10" y="2378">  1491571705561,</tspan>
+<tspan x="10" y="2394">  1491571705562,</tspan>
+<tspan x="10" y="2410">  ... 900 more items ]</tspan>
+<tspan x="10" y="2426"></tspan>
+<tspan x="10" y="2442">browserTest - opened url http://127.0.0.1:51559?modeTest=1</tspan>
+<tspan x="10" y="2458"></tspan>
+<tspan x="10" y="2474">[4925:0407/132828:INFO:CONSOLE(250)] "----------|-----------|-----------|-----------|-----------\</tspan>
+<tspan x="10" y="2490">|</tspan>
+<tspan x="10" y="2506">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="2522">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="2538">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="2554">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="2570">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="2586">", source: file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/electron.15b489a05150.ecd5c\</tspan>
+<tspan x="10" y="2602">48dc5a1d.html (250)</tspan>
+<tspan x="10" y="2618">[4925:0407/132828:INFO:CONSOLE(250)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
+<tspan x="10" y="2634">l", source: file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/electron.15b489a05150.ecd5\</tspan>
+<tspan x="10" y="2650">c48dc5a1d.html (250)</tspan>
+<tspan x="10" y="2666">[node test-case 4 of 6 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="2682"></tspan>
+<tspan x="10" y="2698">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/bu\</tspan>
+<tspan x="10" y="2714">ild/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-temporal_2Ftmp\</tspan>
+<tspan x="10" y="2730">_2Fbuild_2Fapidoc.html.png</tspan>
+<tspan x="10" y="2746"></tspan>
+<tspan x="10" y="2762">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/bu\</tspan>
+<tspan x="10" y="2778">ild/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-temporal_2Ftmp\</tspan>
+<tspan x="10" y="2794">_2Fbuild_2Fapidoc.html.html</tspan>
+<tspan x="10" y="2810"></tspan>
+<tspan x="10" y="2826">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-temporal/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="2842"></tspan>
+<tspan x="10" y="2858">[node test-case 5 of 6 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="2874"></tspan>
+<tspan x="10" y="2890">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/bu\</tspan>
+<tspan x="10" y="2906">ild/screenCapture.npmTest.browser..png</tspan>
+<tspan x="10" y="2922"></tspan>
+<tspan x="10" y="2938">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/bu\</tspan>
+<tspan x="10" y="2954">ild/screenCapture.npmTest.browser..html</tspan>
+<tspan x="10" y="2970"></tspan>
+<tspan x="10" y="2986">browserTest - exit-code 0 - http://127.0.0.1:51559?modeTest=1</tspan>
+<tspan x="10" y="3002"></tspan>
+<tspan x="10" y="3018"></tspan>
+<tspan x="10" y="3034">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-temporal/tmp/coverage.n\</tspan>
+<tspan x="10" y="3050">pmTest.browser.%2F.json</tspan>
+<tspan x="10" y="3066"></tspan>
+<tspan x="10" y="3082"></tspan>
+<tspan x="10" y="3098">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-temporal/tmp/test-r\</tspan>
+<tspan x="10" y="3114">eport.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="3130"></tspan>
+<tspan x="10" y="3146">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="3162">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="3178">File                         |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="3194">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="3210">   node-npmdoc-temporal/     |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="3226">      example.js             |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="3242">      lib.npmdoc_temporal.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="3258">      test.js                |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="3274">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="3290">All files                    |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="3306">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="3322"></tspan>
+<tspan x="10" y="3338">created coverage file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/build/coverage.html/i\</tspan>
+<tspan x="10" y="3354">ndex.html</tspan>
+<tspan x="10" y="3370">merging file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="3386">-report</tspan>
+<tspan x="10" y="3402"></tspan>
+<tspan x="10" y="3418">-------------------------------------------------------</tspan>
+<tspan x="10" y="3434">| test-report - buildNpmdoc - node - linux v6.10.2 - 2017-04-07T13:28:02.870Z</tspan>
+<tspan x="10" y="3450">|   37138 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="3466">-------------------------------------------------------</tspan>
+<tspan x="10" y="3482"></tspan>
+<tspan x="10" y="3498">created test-report file:///home/travis/build/npmdoc/node-npmdoc-temporal/tmp/build/test-report.\</tspan>
+<tspan x="10" y="3514">html</tspan>
+<tspan x="10" y="3530"></tspan>
+<tspan x="10" y="3546"></tspan>
+<tspan x="10" y="3562">npmTest - 0 failed tests</tspan>
+<tspan x="10" y="3578"></tspan>
+<tspan x="10" y="3594"></tspan>
+<tspan x="10" y="3610">[MODE_BUILD=npmTest] - 2017-04-07T13:28:43Z - EXIT_CODE - 0</tspan>
+</text>
+</svg>

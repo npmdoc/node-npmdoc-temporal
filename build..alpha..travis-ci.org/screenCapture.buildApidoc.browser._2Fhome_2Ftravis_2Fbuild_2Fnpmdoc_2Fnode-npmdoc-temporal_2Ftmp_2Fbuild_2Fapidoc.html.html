@@ -1,0 +1,378 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/rwaldron/temporal">temporal (v0.5.0)</a>
+</h1>
+<h4>Non-blocking, temporal task sequencing and scheduling.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.temporal">module temporal</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.temporal.clear">
+            function <span class="apidocSignatureSpan">temporal.</span>clear
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.temporal.defer">
+            function <span class="apidocSignatureSpan">temporal.</span>defer
+            <span class="apidocSignatureSpan">(time, operation)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.temporal.delay">
+            function <span class="apidocSignatureSpan">temporal.</span>delay
+            <span class="apidocSignatureSpan">(time, operation)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.temporal.loop">
+            function <span class="apidocSignatureSpan">temporal.</span>loop
+            <span class="apidocSignatureSpan">(time, operation)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.temporal.queue">
+            function <span class="apidocSignatureSpan">temporal.</span>queue
+            <span class="apidocSignatureSpan">(tasks)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.temporal.repeat">
+            function <span class="apidocSignatureSpan">temporal.</span>repeat
+            <span class="apidocSignatureSpan">(n, ms, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.temporal.wait">
+            function <span class="apidocSignatureSpan">temporal.</span>wait
+            <span class="apidocSignatureSpan">(time, operation)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">temporal.</span>_eventsCount</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">temporal.</span>_events</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">temporal.</span>domain</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.temporal" id="apidoc.module.temporal">module temporal</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.temporal.clear" id="apidoc.element.temporal.clear">
+        function <span class="apidocSignatureSpan">temporal.</span>clear
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">clear = function () {
+  isProcessing = false;
+  exportable.removeAllListeners();
+  queue = {};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.temporal.defer" id="apidoc.element.temporal.defer">
+        function <span class="apidocSignatureSpan">temporal.</span>defer
+        <span class="apidocSignatureSpan">(time, operation)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">defer = function (time, operation) {
+  if (typeof time === "function") {
+    operation = time;
+    time = 10;
+  }
+  var task = new Task({
+    time: time,
+    type: type,
+    task: operation
+  });
+
+  if (!isProcessing) {
+    processQueue();
+  }
+
+  return task;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.temporal.delay" id="apidoc.element.temporal.delay">
+        function <span class="apidocSignatureSpan">temporal.</span>delay
+        <span class="apidocSignatureSpan">(time, operation)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">delay = function (time, operation) {
+  if (typeof time === "function") {
+    operation = time;
+    time = 10;
+  }
+  var task = new Task({
+    time: time,
+    type: type,
+    task: operation
+  });
+
+  if (!isProcessing) {
+    processQueue();
+  }
+
+  return task;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var temporal = require("temporal");
+
+temporal.on("idle", function() {
+  console.log("Temporal is idle");
+});
+
+// Wait 500 milliseconds, execute a task
+temporal.<span class="apidocCodeKeywordSpan">delay</span>(500, function() {
+
+  console.log("500ms later...");
+
+});
+
+// Loop every n milliseconds, executing a task each time
+temporal.loop(500, function() {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.temporal.loop" id="apidoc.element.temporal.loop">
+        function <span class="apidocSignatureSpan">temporal.</span>loop
+        <span class="apidocSignatureSpan">(time, operation)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">loop = function (time, operation) {
+  if (typeof time === "function") {
+    operation = time;
+    time = 10;
+  }
+  var task = new Task({
+    time: time,
+    type: type,
+    task: operation
+  });
+
+  if (!isProcessing) {
+    processQueue();
+  }
+
+  return task;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+temporal.delay(500, function() {
+
+console.log("500ms later...");
+
+});
+
+// Loop every n milliseconds, executing a task each time
+temporal.<span class="apidocCodeKeywordSpan">loop</span>(500, function() {
+
+console.log("Every 500ms...");
+
+// |this| is a reference to the temporal instance
+// use it to cancel the loop by calling:
+//
+this.stop();
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.temporal.queue" id="apidoc.element.temporal.queue">
+        function <span class="apidocSignatureSpan">temporal.</span>queue
+        <span class="apidocSignatureSpan">(tasks)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">queue = function (tasks) {
+  var queue = new Queue(tasks);
+  processQueue();
+  return queue;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+// The first argument to the callback is the same as |this|
+});
+
+
+// Queue a sequence of tasks: delay, delay
+// Each delay time is added to the prior delay times.
+temporal.<span class="apidocCodeKeywordSpan">queue</span>([
+{
+  delay: 500,
+  task: function() {
+    // Executes 500ms after temporal.queue(...) is called
+  }
+},
+{
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.temporal.repeat" id="apidoc.element.temporal.repeat">
+        function <span class="apidocSignatureSpan">temporal.</span>repeat
+        <span class="apidocSignatureSpan">(n, ms, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">repeat = function (n, ms, callback) {
+  return exportable.loop(ms, function(context) {
+    callback(context);
+
+    if (context.called === n) {
+      this.stop();
+    }
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.temporal.wait" id="apidoc.element.temporal.wait">
+        function <span class="apidocSignatureSpan">temporal.</span>wait
+        <span class="apidocSignatureSpan">(time, operation)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">wait = function (time, operation) {
+  if (typeof time === "function") {
+    operation = time;
+    time = 10;
+  }
+  var task = new Task({
+    time: time,
+    type: type,
+    task: operation
+  });
+
+  if (!isProcessing) {
+    processQueue();
+  }
+
+  return task;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
