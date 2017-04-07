@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"temporal",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "temporal",
+    "description": "api documentation for [temporal (v0.5.0)](https://github.com/rwaldron/temporal) [![npm package](https://img.shields.io/npm/v/npmdoc-temporal.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-temporal) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-temporal.svg)](https://travis-ci.org/npmdoc/node-npmdoc-temporal)",
     "devDependencies": {
-        "temporal": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "temporal": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-temporal",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-temporal",
+    "keywords": [
+        "documentation",
+        "temporal"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_temporal.js",
+    "name": "npmdoc-temporal",
+    "nameAlias": "npmdoc_temporal",
+    "nameOriginal": "npmdoc-temporal",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-temporal"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
